@@ -66,6 +66,14 @@ Tudo pronto. A API estará disponível em:
 http://localhost:<APP_PORT>
 ```
 
+## Documentacao da API
+
+A documentação para integração está disponível em:
+
+```txt
+docs/api.md
+```
+
 ## Comandos úteis
 
 #### Rodar migrations
@@ -108,4 +116,3 @@ docker compose exec api npm run lint
   Feito com ♡ por <a href="https://www.linkedin.com/in/giovani-appezzato">Giovani Appezzato</a><br>
     <b>Por favor, mantenha o código limpo e organizado. Obrigado!</b>
 </div>
-
