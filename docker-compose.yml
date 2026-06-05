@@ -9,7 +9,7 @@ services:
     environment:
       NODE_ENV: development
     ports:
-      - "3000:3000"
+      - "${APP_PORT:-3000}:3000"
     volumes:
       - .:/app
       - /app/node_modules
@@ -26,7 +26,7 @@ services:
       MYSQL_USER: ${DB_USERNAME}
       MYSQL_PASSWORD: ${DB_PASSWORD}
     ports:
-      - "33062:3306"
+      - "${MYSQL_PORT:-33062}:3306"
     volumes:
       - mysql_data:/var/lib/mysql
     healthcheck:
