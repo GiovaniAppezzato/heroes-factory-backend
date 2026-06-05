@@ -1,5 +1,6 @@
 import 'dotenv/config';
 import { DataSource } from 'typeorm';
+import { DATA_SOURCE } from 'src/database/database.constants';
 
 export const AppDataSource = new DataSource({
   type: 'mysql',
@@ -15,7 +16,7 @@ export const AppDataSource = new DataSource({
 
 export const databaseProviders = [
   {
-    provide: 'DATA_SOURCE',
+    provide: DATA_SOURCE,
     useFactory: async () =>
       AppDataSource.isInitialized ? AppDataSource : AppDataSource.initialize(),
   },

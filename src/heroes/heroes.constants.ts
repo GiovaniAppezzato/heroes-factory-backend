@@ -1,0 +1,2 @@
+export const HERO_REPOSITORY = 'HERO_REPOSITORY';
+export const HEROES_PER_PAGE = 10;
