@@ -4,7 +4,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0+-4479A1?logo=mysql&logoColor=white)](https://www.mysql.com/)
 
-# Introducao
+# Introdução
 
 Este repositório contém o backend da aplicação **Hero Factory**, uma API REST para cadastro e gerenciamento de heróis.
 
